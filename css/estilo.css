@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');      
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.topo{background-color:#F8003D;
+        width: 100%;
+        height: 60px;
+        margin: auto;
+}
+.menu{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content:flex-end;
+}
+.menu ul{
+    width: 600px;
+    height: 60px;
+    list-style-type: none;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+        
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Bebas neue',cursive;
+    font-size: 18px;
+    padding: 17px 60px;
+}
+/* amimação ao passar o mouse nas tags a  */
+.menu a:hover{ 
+    color: #A259F7;
+    background-color:black;
+}
+.banner{
+    widows: 100%;
+    height: 740px;
+    background-image:url(../imagens/imagem-fundo-banner.jpg);
+    background-size:cover;
+    background-position:bottom;
+}
+.nomes{
+    width: 1220px;
+    height: 100%;
+    margin: auto;
+    padding-top: 200px;
+}
+.titulos{
+    width: 560px;
+    height: 500px;
+
+}
+.titulos h1{
+    font-size: 96px;
+    font-family: 'Bebas neue',cursive;
+    color: white;
+    padding-bottom: 20px;
+}
+.titulos p{
+    font-size:50px;
+    font-family: 'Courier Prime', monospace;
+    text-transform: uppercase;
+    color: #F8003D;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.titulos span{
+    margin-left: 50px;
+}
+.linha{
+    width:99% ;
+    height:0px;
+    border:solid #ffaf00;
+}
+.sobre{
+    background-color: #080324;
+    width: 100%;
+    height: 808px;
+    display: flex;
+    justify-content: center;
+}
+.delimitação{
+    width: 1203px;
+    height: 612px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 328px;
+    margin-top: 64px;
+}
+.q1{
+    width: 1203px;
+    height: 408px;
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+}
+#title-sobre{
+    font-size: 64px;
+    font-family: 'bebas neue',cursive;
+    color: #F8003D;
+    margin-bottom: 64px;
+}
+.q1 img{
+    width: 480px;
+    height: 410px;
+}
+.q2{
+    width: 591px;
+    height: 480px;
+}
+.q2 h2{
+    color: white;
+    font-size: 24px;
+    font-family: 'Courier New';
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.q2 h3{
+    font-size: 64px;
+    font-family: 'bebas neue';
+    color:#ffaf00;
+    margin-bottom: 18px;
+
+}
+.q2 p{
+    font-size: 18px;
+    font-family: 'Open Sans';
+    color: white;
+} 
+.info{
+    width: 100%;
+    height: 193px;
+    background-image: url(../imagens/imagem-fundo-info.jpg);
+    background-size: cover;
+    display:flex;
+    justify-content: center;   
+}
+.delimitação-info{
+    width: 1203px;
+    height: 154px;
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+    margin: auto;
+    align-items: flex-end;
+}
+.q1-info{
+    width: 288px;
+    height: 138px;
+}
+.q2-info{
+    width: 288px;
+    height: 138px;    
+}
+.q3-info{
+    width: 288px;
+    height: 138px;  
+}
+.q1-info h4{
+    font-size: 24px;
+    font-family: 'Courier New';
+    text-transform: uppercase;
+    color: white;
+}
+.borda-1{
+    height: 100px;
+    border: 1px solid #A259F7;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.borda-1 h5{
+    padding: auto;
+    font-size: 28px;
+    font-family: 'Courier New';
+    color: #A259F7;
+}
+.q2-info h4{
+    font-size: 24px;
+    font-family: 'Courier New';
+    text-transform: uppercase;
+    color: white;
+}
+.borda-2{
+    height: 100px;
+    border: 1px solid #A259F7;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.borda-2 h5{
+    padding: auto;
+    font-size: 28px;
+    font-family: 'Courier New';
+    color: #A259F7;
+}
+.q3-info h4{
+    font-size: 24px;
+    font-family: 'Courier New';
+    text-transform: uppercase;
+    color: white;
+}
+.borda-3{
+    height: 100px;
+    border: 1px solid #A259F7;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.borda-3 h5{
+    padding: auto;
+    font-size: 28px;
+    font-family: 'Courier New';
+    color:#A259F7 ;
+}
+.endereço{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagens/imagem-fundo-ranking.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.limit-end{
+    width: 900px;
+    height: 297px;
+}
+.limit-end h2{
+    font-size: 64px;
+    font-family: 'Bebas Neue',cursive;
+    text-transform: uppercase;
+    color: #ffaf00;
+}
+.q1-end{
+    width: 900px;
+    height: 216px;
+    border: 1px solid #A259F7;
+}
+.q1-end p{
+    color: #A259F7;
+    font-size: 24px;
+    font-family: 'Courier New';
+    margin-top: 58px;
+    margin-left: 66px;
+}  
+.q1-end img{
+    width: 309px;
+    height: 265px;
+    margin-left: 580px;
+    margin-top: -200px; 
+}   
+.roda-pé{
+    width: 100%;
+    height: 82px;
+    background-color: #F8003D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.roda-pé p{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    color: white;
+} 
